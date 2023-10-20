@@ -1,20 +1,21 @@
 {
-  "name": "best-pony",
-  "version": "1.0.0",
-  "description": "Informs everypony who best pony is in Typescript.",
-  "main": "mane.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SilkRose/Best-Pony.git"
-  },
-  "author": "Silk Rose",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/SilkRose/Best-Pony/issues"
-  },
-  "homepage": "https://github.com/SilkRose/Best-Pony#readme",
-  "devDependencies": {
-    "@types/node": "^18.11.18",
-    "typescript": "^4.9.4"
-  }
+	"name": "best-pony",
+	"version": "1.0.0",
+	"description": "Informs everypony who best pony is in Typescript.",
+	"private": true,
+	"main": "mane.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SilkRose/Best-Pony.git"
+	},
+	"author": "Silk Rose",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SilkRose/Best-Pony/issues"
+	},
+	"homepage": "https://github.com/SilkRose/Best-Pony#readme",
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"typescript": "^4.9.4"
+	}
 }
