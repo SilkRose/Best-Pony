@@ -13,7 +13,7 @@ while true; do
 	stty sane
 	case $char in
 		"$(printf "\n")")
-			if [ $cursor -eq $best_pony_length ]; then
+			if [ $cursor -eq "$best_pony_length" ]; then
 				printf "\nThank you for confirming that %s is the best pony!\n" "$best_pony"
 				break
 			fi
@@ -24,7 +24,7 @@ while true; do
 			fi
 			;;
 		*)
-			if [ $cursor -lt $best_pony_length ]; then
+			if [ $cursor -lt "$best_pony_length" ]; then
 				cursor=$((cursor + 1))
 			fi
 			;;
